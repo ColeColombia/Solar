@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@500;600&family=Overpass:wght@300&family=Playfair+Display+SC:wght@700&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@500;600&family=Overpass:wght@300&family=Playfair+Display+SC:wght@700&family=Pontano+Sans&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+.home
+{
+  background-image: url('../img/bag-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about
+{
+  background-image: url('../img/about.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: none;
+}
+
+
+.right, .left
+{
+  margin-top: 45vh;
+  cursor: pointer;
+}
+
+.navbar-brand
+{
+  font-family:'Sawarabi Mincho', serif;
+  font-size: 35pt;
+}
+
+.home_head
+{
+  font-family: 'Sawarabi Mincho', serif;
+  font-size: 45pt;
+}
+
+.home_para
+{
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 24pt;
+}
+
+.panel
+{
+  font-family: 'Sawarabi Mincho', serif;
+  font-size: 24pt;
+}
+
+.panel_para
+{
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 18pt;
+}
+
+.carousel-caption
+{
+  top: 35vh;
+}
+
+
+body
+{
+  background-color: #080808;
+}
+
+.contact-form{
+  margin-top: 10vh;
+  text-align: center;
+}
+
+#success-message {
+  opacity: 0;
+}
+
+.col-xs-12.col-sm-12.col-md-12.col-lg-12 {
+  padding: 0 20% 0 20%;
+}
+
+.margin-top-25 {
+  margin-top: 25px;
+}
+
+.form-title {
+  padding: 25px;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.form-group .form-control {
+  background-color: #080808;
+  -webkit-box-shadow: none;
+  border-bottom: 1px;
+  border-style: none none solid none;
+  border-radius:0;
+  border-color: silver;
+}
+
+.form-group .form-control:focus {
+	box-shadow: none;
+  border-width: 0 0 2px 0;
+  border-color: #000;
+
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-mod.btn-large {
+    height: auto;
+    padding: 13px 52px;
+    font-size: 15px;
+}
+
+.btn-mod.btn-border {
+    color: silver;
+    border: 1px solid silver;
+    background: transparent;
+}
+
+.btn-mod, a.btn-mod {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 4px 13px;
+    color: #fff;
+    background: rgba(34,34,34, .9);
+    border: 1px solid silver;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
+    color: #fff;
+    border-color: #000;
+    background: #000;
+    outline: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .btn-mod.btn-large {
+       padding: 6px 16px;
+       font-size: 11px;
+    }
+
+    .form-title {
+        font-size: 20px;
+  }
+}
+
+.footer{
+  background-color: black;
+  height: 10vh;
+  color: white;
+  text-align: center;
+}
+
+.contact-section {
+  padding-top: 5rem;
+  background-color: black;
+}
+
+.contact-info ol {
+  padding: 0;
+  margin: 0;
+}
+ .contact-info ol li {
+  padding: 0 0 0 40px;
+  margin: 0 0 30px 0;
+  list-style: none;
+  position: relative;
+}
+
+.contact-info ol a{
+  text-decoration: none;
+  color:white;
+}
+
+.contact-section .social {
+  margin-top: 5rem;
+}
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+.contact-section .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.contact-section .social a:active {
+  color: #fff;
+}
+
+.about_page
+{
+  background-image: url('../img/about_page.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact_page
+{
+  background-image: url('../img/contact.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  padding: 5rem 0;
+}
